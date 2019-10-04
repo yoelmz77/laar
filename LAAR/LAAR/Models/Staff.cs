@@ -30,6 +30,11 @@ namespace LAAR.Models
         public int ProviderID { get; set; }
 
         public List<License> Licenses {get; set;}
+        public string Rate { get; set; }
+        public string Credential { get; set; } //LMHC/LSW/BCBA/BCaBA/RBT/BS/Other(blank space) ?????
+        public string Initial { get; set; }
+        public string Signature { get; set; }
+
 
     }
 
