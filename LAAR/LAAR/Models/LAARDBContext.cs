@@ -12,9 +12,7 @@ namespace LAAR.Models
             : base("name=laarconnection")
         {
         }
-        public DbSet<Staff> StaffTable { get; set; }
-        public DbSet<EducationalLevel> EducationalLevelTable { get; set; }
-        public DbSet<Position> PositionTable { get; set; }
+        public DbSet<Note> NoteTable { get; set; }
 
     }
 }

@@ -8,7 +8,7 @@ using System.ComponentModel.DataAnnotations;
 namespace LAAR.Models
 {
     [Table("tblClient")]
-    public class Clientcs
+    public class Client
     {
         [Key]
         public int ClientID { get; set; }
