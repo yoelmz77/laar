@@ -185,6 +185,7 @@
     <Compile Include="Models\EducationalLevel.cs" />
     <Compile Include="Models\LAARDBContext.cs" />
     <Compile Include="Models\License.cs" />
+    <Compile Include="Models\LicenseType.cs" />
     <Compile Include="Models\Position.cs" />
     <Compile Include="Models\Staff.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

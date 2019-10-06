@@ -12,7 +12,7 @@ namespace LAAR.Models
     {
         [Key]
         public int LicenseID { get; set; }
-        public string Name { get; set; }
+        public LicenseType LicenseType { get; set; }
         public DateTime Expires { get; set; }
         public Staff SumittedBy { get; set; }
         public Staff AprrovedBy { get; set; }
