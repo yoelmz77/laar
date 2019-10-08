@@ -19,8 +19,7 @@ namespace LAAR.Models
         public DateTime DateOfBirth { get; set; }
         public string DiagnosisCode { get; set; }
         public int MCD { get; set; }
-        public int PANumber { get; set; }
-        public PARequest PARequest { get; set; }
+        public List<PARequest> PARequest { get; set; }
         public string CaregiverName { get; set; }
         public string CaregiverAddress { get; set; } //Break Down address allows search by street address/city/state/zip
         public string CaregiverAddress2 { get; set; }

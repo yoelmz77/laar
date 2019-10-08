@@ -12,6 +12,7 @@ namespace LAAR.Models
     {
         [Key]
         public int PARequestID { get; set; }
+        public int PANumber { get; set; }
         public DateTime PeriodStartDate { get; set; }
         public DateTime PeriodEndDate { get; set; }
         public int UnitsH2019 { get; set; }

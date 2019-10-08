@@ -13,5 +13,12 @@ namespace LAAR.Models
         [Key]
         public int MaladaptiveBehaviorID { get; set; }
         public int Name { get; set; }
+        public string UnitOfMeasurement { get; set; } //Incidents, Oportunities
+        public DateTime CollectedFrom { get; set; }
+        public DateTime CollectedTo { get; set; }
+        public int Amount { get; set; } 
+        public string Duration { get; set; } //1w
+        public List<Outcome> Outcomes { get; set; } //STOs & LTOs
     }
+
 }

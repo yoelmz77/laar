@@ -182,6 +182,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Assesment.cs" />
     <Compile Include="Models\BehaviorService.cs" />
     <Compile Include="Models\Client.cs" />
     <Compile Include="Models\EducationalLevel.cs" />
@@ -192,6 +193,7 @@
     <Compile Include="Models\MaladaptiveBehavior.cs" />
     <Compile Include="Models\Note.cs" />
     <Compile Include="Models\NoteType.cs" />
+    <Compile Include="Models\Outcome.cs" />
     <Compile Include="Models\PARequest.cs" />
     <Compile Include="Models\PlaceOfService.cs" />
     <Compile Include="Models\Position.cs" />
