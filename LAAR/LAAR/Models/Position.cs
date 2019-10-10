@@ -22,7 +22,7 @@ namespace LAAR.Models
     {
         [Key]
         public int PositionID { get; set; }
-        public String PositionName { get; set; }
+        public String Name { get; set; }
 
     }
 }

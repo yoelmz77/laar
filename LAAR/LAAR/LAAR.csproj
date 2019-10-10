@@ -185,7 +185,8 @@
     <Compile Include="Models\Assesment.cs" />
     <Compile Include="Models\BehaviorService.cs" />
     <Compile Include="Models\Client.cs" />
-    <Compile Include="Models\EducationalLevel.cs" />
+    <Compile Include="Models\Credential.cs" />
+    <Compile Include="Models\DiagnosisCode.cs" />
     <Compile Include="Models\Intervention.cs" />
     <Compile Include="Models\LAARDBContext.cs" />
     <Compile Include="Models\License.cs" />
@@ -193,8 +194,8 @@
     <Compile Include="Models\MaladaptiveBehavior.cs" />
     <Compile Include="Models\Note.cs" />
     <Compile Include="Models\NoteType.cs" />
-    <Compile Include="Models\Outcome.cs" />
-    <Compile Include="Models\PARequest.cs" />
+    <Compile Include="Models\Objective.cs" />
+    <Compile Include="Models\PAApproved.cs" />
     <Compile Include="Models\PlaceOfService.cs" />
     <Compile Include="Models\Position.cs" />
     <Compile Include="Models\ReplacementProgram.cs" />

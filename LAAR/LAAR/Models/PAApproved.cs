@@ -7,11 +7,11 @@ using System.ComponentModel.DataAnnotations;
 
 namespace LAAR.Models
 {
-    [Table("tblPARequest")]
-    public class PARequest
+    [Table("tblPAApproved")] //change to PAApproved
+    public class PAApproved
     {
         [Key]
-        public int PARequestID { get; set; }
+        public int PAApprovedID { get; set; }
         public int PANumber { get; set; }
         public DateTime PeriodStartDate { get; set; }
         public DateTime PeriodEndDate { get; set; }

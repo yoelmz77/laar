@@ -18,7 +18,7 @@ namespace LAAR.Models
         public DateTime CollectedTo { get; set; }
         public int Amount { get; set; } 
         public string Duration { get; set; } //1w
-        public List<Outcome> Outcomes { get; set; } //STOs & LTOs
+        public List<Objective> Outcomes { get; set; } //STOs & LTOs
     }
 
 }

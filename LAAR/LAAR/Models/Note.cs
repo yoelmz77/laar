@@ -18,7 +18,7 @@ namespace LAAR.Models
         public DateTime TimeIn { get; set; }
         public DateTime TimeOut { get; set; }
         public int UnitsProvided { get; set; }
-        public PlaceOfService PlaceOfService { get; set; } //Multiselect???
+        public List<PlaceOfService> PlaceOfService { get; set; } 
         public string WorkWith { get; set; } //Multiselect???
         public Boolean BakerActed { get; set; }
         public Boolean DoctorVisit { get; set; }
@@ -28,10 +28,11 @@ namespace LAAR.Models
         public string Explain { get; set; }
         public string EnviromentalChanges { get; set; }
         public string PreferenceAssesmentResults { get; set; }
-        public List<MaladaptiveBehavior> MaladaptiveBehaviors { get; set; }
-        public List<Intervention> Interventions { get; set; }
-        public List<ReplacementProgram> ReplacementPrograms { get; set; }
+        public List<int> MaladaptiveBehaviorsCount { get; set; }
+        //public List<Intervention> Interventions { get; set; }
+        public List<int> ReplacementPrograms { get; set; }
         public List<BehaviorService> BehaviorServices { get; set; }
+
         public string BriefDescription { get; set; }
         public Boolean NextVisitAgreement { get; set; }
         public string NextVisitAgreementExplain { get; set; }

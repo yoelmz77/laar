@@ -7,8 +7,6 @@ using System.ComponentModel.DataAnnotations;
 
 namespace LAAR.Models
 {
-
-
     [Table("tblStaff")]
     public class Staff
     {
@@ -24,15 +22,14 @@ namespace LAAR.Models
         public string PhoneNumber2 { get; set; }
         public string Email { get; set; }
         public Position Position { get; set; } //Administrator/OfficeManager/Staff/H2014/H2012/H2019/T1017
-        public EducationalLevel EducationalLevel { get; set; } //High School/Bachelor/Master
+        public string EducationalLevel { get; set; } //High School/Bachelor/Master
         public string LegalStatus { get; set; } //Citizen/ Authorized to Work
         public int ProviderID { get; set; }
         public List<License> Licenses {get; set;} 
-        public string Rate { get; set; } //Number?
-        public string Credential { get; set; } //LMHC/LSW/BCBA/BCaBA/RBT/BS/Other(blank space) ?????
+        public double Rate { get; set; } 
+        public Credential Credential { get; set; } //LMHC/LSW/BCBA/BCaBA/RBT/BS/Other(blank space) ?????
         public string Initial { get; set; } //image format storage
         public string Signature { get; set; } //image format storage
-
 
     }
 

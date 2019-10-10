@@ -7,11 +7,11 @@ using System.ComponentModel.DataAnnotations;
 
 namespace LAAR.Models
 {
-    [Table("tblOutcome")]
-    public class Outcome
+    [Table("tblObjective")]
+    public class Objective
     {
         [Key]
-        public int OutcomeID { get; set; }
+        public int ObjectiveID { get; set; }
         public string Name { get; set; } 
         public string Type { get; set; } //Short, Long
         public int AmountFrom { get; set; } 
