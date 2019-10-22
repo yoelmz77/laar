@@ -13,6 +13,8 @@ namespace LAAR.Models
         {
         }
         public DbSet<Note> NoteTable { get; set; }
+        public DbSet<Assesment> AssesmentTable { get; set; }
+        public DbSet<CompetencyCheck> CompetencyCheckTable { get; set; }
 
     }
 }

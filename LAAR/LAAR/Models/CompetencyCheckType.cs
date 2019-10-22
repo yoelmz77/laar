@@ -7,11 +7,11 @@ using System.ComponentModel.DataAnnotations;
 
 namespace LAAR.Models
 {
-    [Table("tblReplacementProgram")]
-    public class ReplacementProgram
+    [Table("tblCompetencyCheckType")]
+    public class CompetencyCheckType
     {
         [Key]
-        public int ReplacementProgramID { get; set; }
-        public int Name { get; set; }
+        public int CompetencyCheckTypeID { get; set; }
+        public string name { get; set; } //Caregiver, RBT
     }
 }

@@ -7,11 +7,13 @@ using System.ComponentModel.DataAnnotations;
 
 namespace LAAR.Models
 {
-    [Table("tblIntervention")]
-    public class Intervention
+    [Table("tblWorkSchedule")]
+    public class WorkSchedule
     {
         [Key]
-        public int InterventionID { get; set; }
-        public int Name { get; set; }
+        public int WorkScheduleID { get; set; }
+        public string Day { get; set; }
+        public string Time { get; set; }
+        public string Action { get; set; }
     }
 }

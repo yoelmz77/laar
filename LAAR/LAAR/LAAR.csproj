@@ -182,24 +182,31 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ABCReport.cs" />
     <Compile Include="Models\Assesment.cs" />
     <Compile Include="Models\BehaviorService.cs" />
     <Compile Include="Models\Client.cs" />
+    <Compile Include="Models\CompetencyCheck.cs" />
+    <Compile Include="Models\CompetencyCheckType.cs" />
     <Compile Include="Models\Credential.cs" />
     <Compile Include="Models\DiagnosisCode.cs" />
-    <Compile Include="Models\Intervention.cs" />
     <Compile Include="Models\LAARDBContext.cs" />
     <Compile Include="Models\License.cs" />
     <Compile Include="Models\LicenseType.cs" />
-    <Compile Include="Models\MaladaptiveBehavior.cs" />
+    <Compile Include="Models\Medication.cs" />
+    <Compile Include="Models\Observation.cs" />
+    <Compile Include="Models\ProgramType.cs" />
     <Compile Include="Models\Note.cs" />
     <Compile Include="Models\NoteType.cs" />
     <Compile Include="Models\Objective.cs" />
     <Compile Include="Models\PAApproved.cs" />
     <Compile Include="Models\PlaceOfService.cs" />
     <Compile Include="Models\Position.cs" />
-    <Compile Include="Models\ReplacementProgram.cs" />
+    <Compile Include="Models\Program.cs" />
     <Compile Include="Models\Staff.cs" />
+    <Compile Include="Models\StrengthWeakness.cs" />
+    <Compile Include="Models\TrainingGoal.cs" />
+    <Compile Include="Models\WorkSchedule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

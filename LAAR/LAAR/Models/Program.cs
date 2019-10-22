@@ -7,18 +7,17 @@ using System.ComponentModel.DataAnnotations;
 
 namespace LAAR.Models
 {
-    [Table("tblMaladaptiveBehavior")]
-    public class MaladaptiveBehavior
+    [Table("tblProgram")]
+    public class Program
     {
         [Key]
-        public int MaladaptiveBehaviorID { get; set; }
-        public int Name { get; set; }
-        public string UnitOfMeasurement { get; set; } //Incidents, Oportunities
+        public int ProgramID { get; set; }
+        public string Description { get; set; } 
+        public ProgramType ProgramType { get; set; }
         public DateTime CollectedFrom { get; set; }
         public DateTime CollectedTo { get; set; }
-        public int Amount { get; set; } 
+        public int Amount { get; set; }
         public string Duration { get; set; } //1w
-        public List<Objective> Outcomes { get; set; } //STOs & LTOs
+        public List<Objective> Objectives { get; set; } //STOs & LTOs }
     }
-
 }

@@ -15,6 +15,8 @@ namespace LAAR.Controllers
             ViewBag.Title = "Data Base created";
 
             db.NoteTable.ToList();
+            db.AssesmentTable.ToList();
+            db.CompetencyCheckTable.ToList();
 
             return View();
         }
