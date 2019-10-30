@@ -13,6 +13,7 @@ namespace LAAR.Models
         [Key]
         public int ProgramID { get; set; }
         public string Description { get; set; } 
+        public string Steps { get; set; }
         public ProgramType ProgramType { get; set; }
         public DateTime CollectedFrom { get; set; }
         public DateTime CollectedTo { get; set; }

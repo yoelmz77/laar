@@ -86,6 +86,6 @@ namespace LAAR.Models
         public int ProgramTypeID { get; set; }
         public string Name { get; set; }
         public string Type { get; set; } // Maladaptive Behavior, Intervention, Replacement
-        public string UnitOfMeasurement { get; set; } //Incidents, Oportunities
+        public string UnitOfMeasurement { get; set; } //Incidents, Oportunities, Time
     }
 }

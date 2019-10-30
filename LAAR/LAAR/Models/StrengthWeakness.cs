@@ -13,6 +13,7 @@ namespace LAAR.Models
         [Key]
         public int StrengthWeaknessID { get; set; }
         public string Name { get; set; }
+        public string Type { get; set; } //Strenght Weakness
         public string Description { get; set; }
     }
 }
