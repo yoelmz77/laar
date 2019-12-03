@@ -25,7 +25,7 @@ namespace LAAR.Models
         public string EducationalLevel { get; set; } //High School/Bachelor/Master
         public string LegalStatus { get; set; } //Citizen/ Authorized to Work
         public int ProviderID { get; set; }
-        public List<License> Licenses {get; set;} 
+        public List<Inservice> Inservices { get; set;} 
         public double Rate { get; set; } 
         public Credential Credential { get; set; } //LMHC/LSW/BCBA/BCaBA/RBT/BS/Other(blank space) ?????
         public string Initial { get; set; } //image format storage

@@ -7,8 +7,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace LAAR.Models
 {
-    [Table("tblLicenseType")]
-    public class LicenseType
+    [Table("tblInserviceType")]
+    public class InserviceType
     {
         /*
             ExpiresIn
@@ -32,7 +32,7 @@ namespace LAAR.Models
             Supervision Monthly (1m)
         */
         [Key]
-        public int LicenseTypeID { get; set; }
+        public int InserviceTypeID { get; set; }
         public string ExpiresIn { get; set; }
         public string Name { get; set; }
     }

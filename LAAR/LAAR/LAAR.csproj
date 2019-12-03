@@ -191,8 +191,8 @@
     <Compile Include="Models\Credential.cs" />
     <Compile Include="Models\DiagnosisCode.cs" />
     <Compile Include="Models\LAARDBContext.cs" />
-    <Compile Include="Models\License.cs" />
-    <Compile Include="Models\LicenseType.cs" />
+    <Compile Include="Models\Inservice.cs" />
+    <Compile Include="Models\InserviceType.cs" />
     <Compile Include="Models\Medication.cs" />
     <Compile Include="Models\Observation.cs" />
     <Compile Include="Models\ProgramType.cs" />
